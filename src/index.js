@@ -1,15 +1,15 @@
 import dva from 'dva';
 import './index.css';
 // import createHistory from 'history/createBrowserHistory';
-import { createBrowserHistory as createHistory } from "history"
+// import { createBrowserHistory as createHistory } from "history"
 
 // 1. Initialize
-const app = dva({
-  history: createHistory(),
-});
+// const app = dva({
+//   history: createHistory(),
+// });
 // import Router from "./router"
 // console.log(Router)
-
+const app = dva();
 
 // 2. Plugins
 // app.use({});

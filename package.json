@@ -1,5 +1,5 @@
 {
-  "homepage": "https://yorkchangzhong.github.io /dva_learn",
+  "homepage": "https://yorkchangzhong.github.io/dva_learn",
   "private": true,
   "scripts": {
     "start": "roadhog server",
