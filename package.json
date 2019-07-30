@@ -6,7 +6,7 @@
     "build": "roadhog build",
     "lint": "eslint --ext .js src test",
     "precommit": "npm run lint",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
